@@ -5,24 +5,47 @@
             body{
              background: #E9FCFF
             }
-            
-            .btn-group button {
+        ul {
+            list-style-type: none;
+            margin: 10px;
+            padding: 0px;
+            overflow: hidden;
+            background-color: powderblue;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #1EABBC;
+        }
+             .btn-group button {
                 
-                font-family: Brush Script MT, Brush Script Std, cursive;
-                background-color: powderblue; /* Green background */
-                color: white; /* White text */
-                padding: 10px; /* Some padding */
-                float: up; /* Float the buttons side by side*/
-                font-size:75 px;
-                margin: 0;          
-            }
-            .btn-group{
-                margin: 0 auto;
+                    font-family: Brush Script MT, Brush Script Std, cursive;
+                    background-color: powderblue; /* Green background */
+                    color: white; /* White text */
+                    padding: 10px; /* Some padding */
+                    float: up; /* Float the buttons side by side*/
+                    font-size:75 px;
+                    margin: 0;          
+                }
+                .btn-group{
+                    margin: 0 auto;
+
+                }
+                .btn-group button:hover {
+                    background-color: #1EABBC ;
+                }
             
-            }
-            .btn-group button:hover {
-                background-color: #1EABBC ;
-            }
             header {
                 
                 background: linear-gradient(-90deg, powderblue, #FF85F0);
@@ -49,11 +72,17 @@
                  
             </header>
         </div>
-            <div allign="center"> class="btn-group">
-                <font size="+2"> <a href="#"> <button type="button" onclick="" >Food Pickup Requests</button></a></font>
-                 <font size="+2"> <a href="#"><button type="button" onclick=""  >Map of Food Requests</button></a></font>
-                 <font size="+2"><a href="#"> <button type="button" onclick=""  >Contact Us</button></a></font>
-            </div>
+                <ul>
+                  <li><a href="#">Food Pickup Requests</a></li>
+                  <li><a href="#">Map of Food Requests</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+            <!-- <div allign="center"> class="btn-group">
+                     <font size="+2"> <a href="#"> <button type="button" onclick="" >Food Pickup Requests</button></a></font>
+                     <font size="+2"> <a href="#"><button type="button" onclick=""  >Map of Food Requests</button></a></font>
+                     <font size="+2"><a href="#"> <button type="button" onclick=""  >Contact Us</button></a></font>
+                -->
+         </div>
         
         <div class="container">
             
